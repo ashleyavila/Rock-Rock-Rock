@@ -1,0 +1,40 @@
+body {
+  color: rgb(7, 4, 4);
+  min-height: 100vh; 
+  min-width: 100vw;
+  background-image:
+  linear-gradient(
+    #C8003A, #FF5632, #FFC301
+  );
+}
+
+/* Containers */
+.main {
+  display: block;
+}
+
+/* Font Sharers */
+.info, .quiz {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+.title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 7em;
+  text-align: center;
+  padding-top: .5em;  
+}
+
+.info {
+  font-size: 1.5em;
+  padding-top: 1.9em;
+  text-align: center;
+}
+
+/* Question Containers */
+
+.quiz {
+  border: 1px solid black;
+  background-color: rgb(14, 179, 154);
+}
