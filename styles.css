@@ -40,35 +40,39 @@ body {
 }
 
 /* Question Containers */
+
 .quiz {
   border: 2px solid white;
-  margin-top: 2em;
-  background-color: rgb(238, 204, 204);
+  margin-top: 60px;
+  padding-top: 12px;
+  background-color: ;
 }
 
 .question {
   color: white;
+  background-color: rgb(238, 204, 204);
   border: 2px solid white;
   text-align: center;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  margin-top: .7em;
-  margin-left: 1.2em;
-  margin-right: 1.2em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 7px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .optbox {
+  background-color: rgb(172, 130, 130);
   border: 2px solid white;
   width: 11.6em;
   height: 8em;
   float: left;
   margin: 1.3em;
-  padding: .5em
+  padding: 15px;
 }
 
 .anstext {
   color: white;
   text-align: center;
-  margin: .2em;
+  margin: 2px;
 }
 
