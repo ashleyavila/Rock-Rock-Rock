@@ -1,4 +1,21 @@
 window.onload = function () {
+  //Scroll page to next question once current is answered
+  $( ".activity" ).click(function() {
+    window.scrollTo(0, 853);
+  });
+
+  $( ".sitcom" ).click(function() {
+    window.scrollTo(0, 1383);
+  });
+
+  $( ".time" ).click(function() {
+    window.scrollTo(0, 1912);
+  });
+
+  $( ".day" ).click(function() {
+    window.scrollTo(0, 2443);
+  });
+
   $('#form').submit(function (event) {
     event.preventDefault()
 
