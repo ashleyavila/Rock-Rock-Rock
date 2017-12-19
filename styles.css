@@ -45,7 +45,6 @@ body {
   border: 2px solid white;
   margin-top: 60px;
   padding-top: 12px;
-  background-color: ;
 }
 
 .question {
@@ -61,13 +60,25 @@ body {
 }
 
 .optbox {
-  background-color: rgb(172, 130, 130);
   border: 2px solid white;
   width: 11.6em;
   height: 8em;
   float: left;
   margin: 1.3em;
   padding: 15px;
+}
+
+.opt {
+  background-color: rgb(172, 130, 130);
+}
+
+.selectedOpt {
+  background-color: grey;
+}
+
+input {
+  position: fixed;
+  opacity: 0;
 }
 
 .anstext {

@@ -11,134 +11,125 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
 
-  <!-- My CSS -->
+  <!-- My CSS.JS -->
   <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </head>
 
 <body>
-  <!-- Logo -->
+  <!-- Logo & Info -->
   <h1 class="title">
     Rock, Rock, Rock
   </h1>
-
-  <!-- Info -->
   <h5 class="info">
     Take this quiz to find your classroom soulmate based on what type of rock you are!
   </h5>
 
-  <div class="main container">
-    <div id="form">
+  <div class="container">
+
+    <form id="form">
       <!-- Question 1 -->
       <div class="quiz row">
-        <div class="col">
+        <div class="questionContainer col">
           <h5 class="question">
             What would you prefer to do on a first date?
           </h5>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="date" id="restaurant" value="1" />Go to a nice restaurant because you love free meals</label>
+          <div class="optbox col opt">
+            <label>Go to a nice restaurant because you love free meals</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="date" id="coffee" value="2" />Do a fun, engaging activity to see how you guys gel</label>
+          <div class="optbox col opt">
+            <label>Do a fun, engaging activity to see how you guys gel</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="date" id="activity" value="3" />Go to a coffee shop because you don't want to commit to any activity more serious than that</label>
+          <div class="optbox col opt">
+            <label>Go to a coffee shop because you don't want to commit to any activity more serious than that</label>
           </div>
         </div>
       </div>
 
       <!-- Question 2 -->
       <div class="quiz row">
-        <div class="col">
+        <div class=" questionContainer col">
           <h5 class="question">
             What's your favorite thing to do at home?
           </h5>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="home" id="relax" value="1" />Relax: browse Pinterest, think about Pottery Barn, watch Netflix</label>
+          <div class="optbox col opt">
+            <label>Relax: browse Pinterest, think about Pottery Barn, watch Netflix</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="home" id="busy" value="2" />Keep busy: go to the gym, learn new skills, work on side projects</label>
+          <div class="optbox col opt">
+            <label>Keep busy: go to the gym, learn new skills, work on side projects</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="home" id="relevant" value="3" />Stay relevant: make plans for the weekend, keep on top of trends</label>
+          <div class="optbox col opt">
+            <label>Stay relevant: make plans for the weekend, keep on top of trends</label>
           </div>
         </div>
       </div>
 
       <!-- Question 3 -->
       <div class="quiz row">
-        <div class="col">
+        <div class="questionContainer col">
           <h5 class="question">
             What is the trait you admire most in someone?
           </h5>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="admire" id="kindness" value="1" />Kindness</label>
+          <div class="optbox col opt">
+            <label>Kindness</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="admire" id="strength" value="2" />Strength</label>
+          <div class="optbox col opt">
+            <label>Strength</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="admire" id="success" value="3" />Success</label>
+          <div class="optbox col opt">
+            <label>Success</label>
           </div>
         </div>
       </div>
 
       <!-- Question 4 -->
       <div class="quiz row">
-        <div class="col">
+        <div class="questionContainer col">
           <h5 class="question">
             What's your favorite genre of music?
           </h5>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="music" id="pop" value="1" />Ambient, pop, synth</label>
+          <div class="optbox col opt">
+            <label>Ambient, pop, synth</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="music" id="rock" value="2" />Rock, EDM, rap</label>
+          <div class="optbox col opt">
+            <label>Rock, EDM, rap</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="music" id="folk" value="3" />Indie, folk, current</label>
+          <div class="optbox col opt">
+            <label>Indie, folk, current</label>
           </div>
         </div>
       </div>
 
       <!-- Question 5 -->
       <div class="quiz row">
-        <div class="col">
+        <div class="questionContainer col">
           <h5 class="question">
             What do you prioritize in life?
           </h5>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="life" id="family" value="1" />Strong familial relationships</label>
+          <div class="optbox col opt">
+            <label>Strong familial relationships</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="life" id="career" value="2" />Success in career</label>
+          <div class="optbox col opt">
+            <label>Success in career</label>
           </div>
-          <div class="optbox col">
-            <label>
-              <input class="anstext" type="radio" name="life" id="character" value="3" />Being of strong character</label>
+          <div class="optbox col opt">
+            <label>Being of strong character</label>
           </div>
         </div>
       </div>
 
       <button type="submit" value="Submit">Submit</button>
 
-    </div>
+      
 
+    </form>
+    <!-- <p id="answer1" hidden>encjkewankjcnkanw</p>
+    <p id="answer2" hidden>sd</p>
+    <p id="answer3" hidden>jk</p>  -->
     <p id="answer"></p>
-
 
   </div>
 
