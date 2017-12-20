@@ -1,26 +1,4 @@
 window.onload = function () {
-  //Scroll page to next question once current is answered
-  // $(".activity").click(function() {
-  //   var next;
-  //   next = $(this).parent().next().find(".quiz");
-  //   $("html, body").scrollTop(next.offset().top);
-  // });
-  // $( ".activity" ).click(function() {
-  //   window.scrollTo(0, 853);
-  // });
-
-  // $( ".sitcom" ).click(function() {
-  //   window.scrollTo(0, 1383);
-  // });
-
-  // $( ".time" ).click(function() {
-  //   window.scrollTo(0, 1912);
-  // });
-
-  // $( ".day" ).click(function() {
-  //   window.scrollTo(0, 2443);
-  // });
-
   var results = []
   
 
@@ -35,11 +13,11 @@ window.onload = function () {
 
     //Determine which rock
     if (total <= 5) {
-      answer = "You're a sedimentary rock";
+      answer = "You're a sedimentary rock!";
     } else if (total > 5 && total <= 10) {
-      answer = "You're a metamorphic rock";
+      answer = "You're a metamorphic rock!";
     } else if (total > 10 ) {
-      answer = "You're an igneous rock";
+      answer = "You're an igneous rock!";
     }
 
     console.log(answer)
@@ -50,7 +28,7 @@ window.onload = function () {
     // Create a new element and push it
     var alert = document.createElement('div')
     alert.className = 'alert alert-info'
-    alert.textContent = answer
+    alert.textContent = answer + " Congrats! Now that you know what rock you are, fill out the https://goo.gl/forms/HmNouUrGI0QsTfsn1 to find your potential soulmate ;)"
 
     $(alert).insertAfter('form');
   })
@@ -81,12 +59,6 @@ window.onload = function () {
       });
     });
   });
-
-
-
   $.each($('.questionContainer'), function(key, value) {
-    //console.log(key);
-    //console.log(value);
-    //console.log();
   });
 }

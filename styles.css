@@ -114,3 +114,14 @@ Submit
   background-color: rgb(143, 51, 51);
   cursor: pointer;
 }
+
+/* ==================================
+Alert
+===================================*/
+.alert {
+  background-color: rgb(190, 189, 189);
+  border: rgb(190, 189, 189);
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
