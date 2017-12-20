@@ -104,6 +104,7 @@ Submit
 ===================================*/
 .btn {
   margin-top: 20px;
+  margin-bottom: 20px;
   justify-content: center;
   background-color: rgb(167, 68, 68);
   border: rgb(167, 68, 68);
