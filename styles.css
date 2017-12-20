@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-image: url("todd-downs-13325.jpg")
+  background-image: linear-gradient(#C8003A, #FF5632, #FFC301)
 }
 
 /* ==================================
@@ -27,7 +27,7 @@ Font Sharers
 Header
 ===================================*/
 .title {
-  color: white;
+  color: black;
   font-family: 'Permanent Marker', cursive;
   font-size: 7em;
   text-align: center;
@@ -35,10 +35,18 @@ Header
 }
 
 .info {
-  color: white;
+  color: black;
   font-size: 1.5em;
   padding-top: 1.9em;
   text-align: center;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
 }
 
 /* ==================================
@@ -48,7 +56,8 @@ Questions
   border: 2px solid white;
   margin-top: 60px;
   padding-top: 12px;
-  background-color: rgb(240, 238, 238);
+  /* background-color: #5296A5; */
+  /* background-image: linear-gradient( #5296A5, #82DDF0) */
 }
 
 .justify-content-between {
@@ -56,12 +65,13 @@ Questions
 }
 
 .question {
-  color: white;
-  background-color: rgb(238, 204, 204);
+  color: black;
+  background-color: #FFC301;
   border: 2px solid white;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 2em;
 }
 
 .w-100 {
@@ -73,15 +83,16 @@ Questions
   float: left;
   padding: 15px;
   height: 150px;
+  font-size: 1.4em;
 }
 
 .optbox:hover {
-  background-color: rgb(167, 68, 68);
+  background-color: #C8003A;
   cursor: pointer;
 }
 
 .opt {
-  background-color: rgb(172, 130, 130);
+  background-color: #FF5632;
 }
 
 .selectedOpt {
@@ -106,12 +117,12 @@ Submit
   margin-top: 20px;
   margin-bottom: 20px;
   justify-content: center;
-  background-color: rgb(167, 68, 68);
-  border: rgb(167, 68, 68);
+  background-color: #82DDF0;
+  border: #82DDF0;
 }
 
 .btn:hover {
-  background-color: rgb(143, 51, 51);
+  background-color: #5296A5;
   cursor: pointer;
 }
 
@@ -124,4 +135,27 @@ Alert
   color: white;
   text-align: center;
   font-size: 2em;
+}
+
+/* ==================================
+Question Backgrounds
+===================================*/
+.back1 {
+  background-image: url('pics/red-rock-canyon1.jpg')
+}
+
+.back2 {
+  background-image: url('pics/red-rock-canyon-time-lapse-6.jpg')
+}
+
+.back3 {
+background-image: url('pics/roc4.jpg')
+}
+
+.back4 {
+background-image: url('pics/roc1.jpg')
+}
+
+.back5 {
+background-image: url('pics/roc3.jpg')
 }

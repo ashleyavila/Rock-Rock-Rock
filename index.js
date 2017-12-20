@@ -28,7 +28,7 @@ window.onload = function () {
     // Create a new element and push it
     var alert = document.createElement('div')
     alert.className = 'alert alert-info'
-    alert.textContent = answer + " Congrats! Now that you know what rock you are, fill out the https://goo.gl/forms/HmNouUrGI0QsTfsn1 to find your potential soulmate ;)"
+    alert.textContent = answer
 
     $(alert).insertAfter('form');
   })
