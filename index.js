@@ -30,8 +30,6 @@ window.onload = function () {
     window.alert(answer)
 
     // $(alert).insertAfter('form');
-    // $(alert).slideDown(400);
-    // $(alert).prepend('form');
   })
 
   // Set the colors
