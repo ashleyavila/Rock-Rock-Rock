@@ -20,8 +20,6 @@ window.onload = function () {
       answer = "You're an igneous rock!";
     }
 
-    console.log(answer)
-
     // Remove the previous answers
     $('.alert').remove();
     
@@ -29,8 +27,11 @@ window.onload = function () {
     var alert = document.createElement('div')
     alert.className = 'alert alert-info'
     alert.textContent = answer
+    window.alert(answer)
 
-    $(alert).insertAfter('form');
+    // $(alert).insertAfter('form');
+    // $(alert).slideDown(400);
+    // $(alert).prepend('form');
   })
 
   // Set the colors
